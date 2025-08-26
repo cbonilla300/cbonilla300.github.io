@@ -83,7 +83,21 @@ h2 ~p {
     margin-bottom: 20px;
     padding: 1rem;
 }
-@media screen and (max-width: 768px) {
-    
-    
+footer {
+    text-align: center;
+    border: 1px solid black;
+    background-color: cadetblue;
+    margin-bottom: 2.5rem;
+}
+footer h2 {
+    margin-bottom: 1.5rem;
+}
+.contact-details {
+    display: flex;
+    justify-content: space-evenly;
+}
+textarea {
+    width: 100%;
+
+    height: 100%;
 }
